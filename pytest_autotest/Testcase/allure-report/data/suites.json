@@ -1,0 +1,39 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_userinfo",
+    "children" : [ {
+      "name" : "TestUser",
+      "children" : [ {
+        "name" : "搜索成功",
+        "uid" : "a96cda91b52c2d15",
+        "parentUid" : "98c21873090c1907855a28d0f6fe54cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605177191689,
+          "stop" : 1605177192099,
+          "duration" : 410
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "搜索失败",
+        "uid" : "ec376bf6484c1593",
+        "parentUid" : "98c21873090c1907855a28d0f6fe54cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605177192102,
+          "stop" : 1605177192481,
+          "duration" : 379
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "98c21873090c1907855a28d0f6fe54cb"
+    } ],
+    "uid" : "f1e04f90d09b631b9e8a90e24b26084d"
+  } ]
+}

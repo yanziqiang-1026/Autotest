@@ -1,0 +1,35 @@
+# 用户相关用例数据
+user:
+  case: search_user_mobile
+  parameters:
+    -
+      method: GET
+      url: /api/admin/store/user/v2/list/search
+      headers: {
+                 f-session: 423cdfb3-5fa0-42f1-8e60-c0ef60ceb370
+      }
+      params:
+        -
+          filter: 19916939575
+      expected:
+        response:
+          code:
+          name: '今天是我的生日'
+          id: 1805308190
+
+user2:
+  case: search_user_mobile
+  parameters:
+    -
+      method: GET
+      url: /api/admin/store/user/v2/list/search
+      headers: {
+                 f-session: 423cdfb3-5fa0-42f1-8e60-c0ef60ceb370
+      }
+      params:
+        -
+          filter: 19999999999
+      expected:
+        response:
+          code: 0
+          data:

@@ -1,0 +1,64 @@
+{
+  "uid" : "a96cda91b52c2d15",
+  "name" : "搜索成功",
+  "fullName" : "test_userinfo.TestUser#test_success_search_01",
+  "historyId" : "68ba20fc80c2ffcb055e2a4c87cc128f",
+  "time" : {
+    "start" : 1605177191689,
+    "stop" : 1605177192099,
+    "duration" : 410
+  },
+  "description" : " 搜索成功用例 ",
+  "descriptionHtml" : "<p>搜索成功用例</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "输入用户手机号用例"
+  }, {
+    "name" : "feature",
+    "value" : "获取用户信息"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "suite",
+    "value" : "test_userinfo"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUser"
+  }, {
+    "name" : "host",
+    "value" : "yanziqiangdeMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "90182-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_userinfo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a96cda91b52c2d15.json",
+  "parameterValues" : [ ]
+}

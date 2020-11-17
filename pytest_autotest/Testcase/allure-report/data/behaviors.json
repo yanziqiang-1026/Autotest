@@ -1,0 +1,39 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "获取用户信息",
+    "children" : [ {
+      "name" : "输入用户手机号用例",
+      "children" : [ {
+        "name" : "搜索成功",
+        "uid" : "a96cda91b52c2d15",
+        "parentUid" : "d806c2a3e68ee45994488738138847db",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605177191689,
+          "stop" : 1605177192099,
+          "duration" : 410
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "搜索失败",
+        "uid" : "ec376bf6484c1593",
+        "parentUid" : "d806c2a3e68ee45994488738138847db",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605177192102,
+          "stop" : 1605177192481,
+          "duration" : 379
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d806c2a3e68ee45994488738138847db"
+    } ],
+    "uid" : "b97b63fdb506c12b51128531c9f7b618"
+  } ]
+}

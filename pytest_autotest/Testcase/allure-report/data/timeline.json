@@ -1,0 +1,39 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "yanziqiangdeMacBook-Air.local",
+    "children" : [ {
+      "name" : "90182-MainThread",
+      "children" : [ {
+        "name" : "搜索失败",
+        "uid" : "ec376bf6484c1593",
+        "parentUid" : "2cc67e9027403d720c834401adc16e6f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605177192102,
+          "stop" : 1605177192481,
+          "duration" : 379
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "搜索成功",
+        "uid" : "a96cda91b52c2d15",
+        "parentUid" : "2cc67e9027403d720c834401adc16e6f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605177191689,
+          "stop" : 1605177192099,
+          "duration" : 410
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2cc67e9027403d720c834401adc16e6f"
+    } ],
+    "uid" : "4210b88f81a25a3aa6d367b7474efca3"
+  } ]
+}
