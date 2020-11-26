@@ -5,26 +5,26 @@
     "name" : "test_userinfo",
     "children" : [ {
       "name" : "搜索成功",
-      "uid" : "a96cda91b52c2d15",
+      "uid" : "ada33770fc3ca120",
       "parentUid" : "8b63500e83ae0f2cb3eff24828a6cd9a",
       "status" : "passed",
       "time" : {
-        "start" : 1605177191689,
-        "stop" : 1605177192099,
-        "duration" : 410
+        "start" : 1606376074786,
+        "stop" : 1606376075243,
+        "duration" : 457
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "搜索失败",
-      "uid" : "ec376bf6484c1593",
+      "uid" : "2b8947dfedaf42cb",
       "parentUid" : "8b63500e83ae0f2cb3eff24828a6cd9a",
       "status" : "passed",
       "time" : {
-        "start" : 1605177192102,
-        "stop" : 1605177192481,
-        "duration" : 379
+        "start" : 1606376075247,
+        "stop" : 1606376075382,
+        "duration" : 135
       },
       "flaky" : false,
       "newFailed" : false,

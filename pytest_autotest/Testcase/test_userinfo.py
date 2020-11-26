@@ -1,6 +1,4 @@
-import pytest
 import allure
-import os
 
 from pytest_autotest.Common import Request
 from pytest_autotest.Params import user_params

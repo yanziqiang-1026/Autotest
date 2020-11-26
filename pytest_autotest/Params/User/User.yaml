@@ -6,7 +6,7 @@ user:
       method: GET
       url: /api/admin/store/user/v2/list/search
       headers: {
-                 f-session: 423cdfb3-5fa0-42f1-8e60-c0ef60ceb370
+                 f-session: 4b6e4300-f252-429f-8d5e-b4368c38d64c
       }
       params:
         -
@@ -24,7 +24,7 @@ user2:
       method: GET
       url: /api/admin/store/user/v2/list/search
       headers: {
-                 f-session: 423cdfb3-5fa0-42f1-8e60-c0ef60ceb370
+                 f-session: 4b6e4300-f252-429f-8d5e-b4368c38d64c
       }
       params:
         -

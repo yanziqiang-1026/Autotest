@@ -1,29 +1,29 @@
 {
-  "uid" : "a96cda91b52c2d15",
-  "name" : "搜索成功",
-  "fullName" : "test_userinfo.TestUser#test_success_search_01",
-  "historyId" : "68ba20fc80c2ffcb055e2a4c87cc128f",
+  "uid" : "2b8947dfedaf42cb",
+  "name" : "搜索失败",
+  "fullName" : "test_userinfo.TestUser#test_success_search_02",
+  "historyId" : "96ca8a0db48514f125ae909e49d770a8",
   "time" : {
-    "start" : 1605177191689,
-    "stop" : 1605177192099,
-    "duration" : 410
+    "start" : 1606376075247,
+    "stop" : 1606376075382,
+    "duration" : 135
   },
-  "description" : " 搜索成功用例 ",
-  "descriptionHtml" : "<p>搜索成功用例</p>\n",
+  "description" : " 搜索失败用例 ",
+  "descriptionHtml" : "<p>搜索失败用例</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ ],
   "afterStages" : [ ],
   "labels" : [ {
-    "name" : "story",
-    "value" : "输入用户手机号用例"
-  }, {
     "name" : "feature",
     "value" : "获取用户信息"
   }, {
     "name" : "severity",
     "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "输入用户手机号用例"
   }, {
     "name" : "suite",
     "value" : "test_userinfo"
@@ -32,10 +32,10 @@
     "value" : "TestUser"
   }, {
     "name" : "host",
-    "value" : "yanziqiangdeMacBook-Air.local"
+    "value" : "yanziqiangdeMacBook-Pro.local"
   }, {
     "name" : "thread",
-    "value" : "90182-MainThread"
+    "value" : "18736-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -59,6 +59,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "a96cda91b52c2d15.json",
+  "source" : "2b8947dfedaf42cb.json",
   "parameterValues" : [ ]
 }
