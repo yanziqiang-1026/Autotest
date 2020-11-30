@@ -1,20 +1,20 @@
 [ {
-  "uid" : "ada33770fc3ca120",
-  "name" : "搜索成功",
+  "uid" : "efb49bdefe6640ee",
+  "name" : "搜索失败",
   "time" : {
-    "start" : 1606376074786,
-    "stop" : 1606376075243,
-    "duration" : 457
+    "start" : 1606386081864,
+    "stop" : 1606386082016,
+    "duration" : 152
   },
   "status" : "passed",
   "severity" : "blocker"
 }, {
-  "uid" : "2b8947dfedaf42cb",
-  "name" : "搜索失败",
+  "uid" : "33b412d0c3b30ed1",
+  "name" : "搜索成功",
   "time" : {
-    "start" : 1606376075247,
-    "stop" : 1606376075382,
-    "duration" : 135
+    "start" : 1606386081690,
+    "stop" : 1606386081860,
+    "duration" : 170
   },
   "status" : "passed",
   "severity" : "blocker"

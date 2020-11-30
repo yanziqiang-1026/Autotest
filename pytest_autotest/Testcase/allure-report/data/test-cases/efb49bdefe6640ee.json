@@ -1,12 +1,12 @@
 {
-  "uid" : "2b8947dfedaf42cb",
+  "uid" : "efb49bdefe6640ee",
   "name" : "搜索失败",
   "fullName" : "test_userinfo.TestUser#test_success_search_02",
   "historyId" : "96ca8a0db48514f125ae909e49d770a8",
   "time" : {
-    "start" : 1606376075247,
-    "stop" : 1606376075382,
-    "duration" : 135
+    "start" : 1606386081864,
+    "stop" : 1606386082016,
+    "duration" : 152
   },
   "description" : " 搜索失败用例 ",
   "descriptionHtml" : "<p>搜索失败用例</p>\n",
@@ -16,14 +16,14 @@
   "beforeStages" : [ ],
   "afterStages" : [ ],
   "labels" : [ {
-    "name" : "feature",
-    "value" : "获取用户信息"
+    "name" : "story",
+    "value" : "输入用户手机号用例"
   }, {
     "name" : "severity",
     "value" : "blocker"
   }, {
-    "name" : "story",
-    "value" : "输入用户手机号用例"
+    "name" : "feature",
+    "value" : "获取用户信息"
   }, {
     "name" : "suite",
     "value" : "test_userinfo"
@@ -35,7 +35,7 @@
     "value" : "yanziqiangdeMacBook-Pro.local"
   }, {
     "name" : "thread",
-    "value" : "18736-MainThread"
+    "value" : "22316-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -59,6 +59,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "2b8947dfedaf42cb.json",
+  "source" : "efb49bdefe6640ee.json",
   "parameterValues" : [ ]
 }

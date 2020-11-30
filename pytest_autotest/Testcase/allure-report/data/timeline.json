@@ -4,35 +4,35 @@
   "children" : [ {
     "name" : "yanziqiangdeMacBook-Pro.local",
     "children" : [ {
-      "name" : "18736-MainThread",
+      "name" : "22316-MainThread",
       "children" : [ {
         "name" : "搜索成功",
-        "uid" : "ada33770fc3ca120",
-        "parentUid" : "b3e3203ccb71d57e8ddd028da106e592",
+        "uid" : "33b412d0c3b30ed1",
+        "parentUid" : "cbbaab032f3a2d588aef24bba762c667",
         "status" : "passed",
         "time" : {
-          "start" : 1606376074786,
-          "stop" : 1606376075243,
-          "duration" : 457
+          "start" : 1606386081690,
+          "stop" : 1606386081860,
+          "duration" : 170
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "搜索失败",
-        "uid" : "2b8947dfedaf42cb",
-        "parentUid" : "b3e3203ccb71d57e8ddd028da106e592",
+        "uid" : "efb49bdefe6640ee",
+        "parentUid" : "cbbaab032f3a2d588aef24bba762c667",
         "status" : "passed",
         "time" : {
-          "start" : 1606376075247,
-          "stop" : 1606376075382,
-          "duration" : 135
+          "start" : 1606386081864,
+          "stop" : 1606386082016,
+          "duration" : 152
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "b3e3203ccb71d57e8ddd028da106e592"
+      "uid" : "cbbaab032f3a2d588aef24bba762c667"
     } ],
     "uid" : "57eda56c23520a860e98fd819deb05fb"
   } ]
