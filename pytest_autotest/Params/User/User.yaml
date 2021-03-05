@@ -1,4 +1,11 @@
 # 用户相关用例数据
+#
+#yaml文件简介：
+#语言规则：大小写敏感、缩紧表示层级关系、缩进时只能使用空格、缩进空格数目不强制。
+#pyyaml允许构造任何类型的python对象
+#使用 - 创建列表，返回列表，使用多个 - 可嵌套
+#使用 \ 保留换行,使用 > 折叠换行,使用 + 保留文字末行换行
+#
 user:
   case: search_user_mobile
   parameters:
@@ -6,7 +13,7 @@ user:
       method: GET
       url: /api/admin/store/user/v2/list/search
       headers: {
-                 f-session: 4b6e4300-f252-429f-8d5e-b4368c38d64c
+                 f-session: bb8d0fe1-576d-4e9e-b450-8ea20092b83b
       }
       params:
         -
@@ -24,7 +31,7 @@ user2:
       method: GET
       url: /api/admin/store/user/v2/list/search
       headers: {
-                 f-session: 4b6e4300-f252-429f-8d5e-b4368c38d64c
+                 f-session: bb8d0fe1-576d-4e9e-b450-8ea20092b83b
       }
       params:
         -

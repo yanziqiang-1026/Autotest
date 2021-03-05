@@ -7,26 +7,26 @@
       "name" : "TestUser",
       "children" : [ {
         "name" : "搜索成功",
-        "uid" : "33b412d0c3b30ed1",
+        "uid" : "a5ec6a078074c0c5",
         "parentUid" : "98c21873090c1907855a28d0f6fe54cb",
         "status" : "passed",
         "time" : {
-          "start" : 1606386081690,
-          "stop" : 1606386081860,
-          "duration" : 170
+          "start" : 1614940162235,
+          "stop" : 1614940162654,
+          "duration" : 419
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "搜索失败",
-        "uid" : "efb49bdefe6640ee",
+        "uid" : "28ba3e6cfc0108cd",
         "parentUid" : "98c21873090c1907855a28d0f6fe54cb",
         "status" : "passed",
         "time" : {
-          "start" : 1606386081864,
-          "stop" : 1606386082016,
-          "duration" : 152
+          "start" : 1614940162660,
+          "stop" : 1614940163011,
+          "duration" : 351
         },
         "flaky" : false,
         "newFailed" : false,
