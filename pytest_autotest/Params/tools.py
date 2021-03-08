@@ -30,7 +30,7 @@ def get_page_list():
     page_list = {} # 定义空字典
     pages = parse() # 调用函数，返回字典
     for page, value in pages.items():
-        parameters = value['parameters'] # 取字典中存放的parameters的数据
+        parameters = value['parameters'] # 元组操作
         data_list = []
 
         for parameter in parameters:

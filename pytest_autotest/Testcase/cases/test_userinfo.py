@@ -10,6 +10,12 @@ class TestUser(object):
     request = Request.Request()
     config = config.ReadConfig()
 
+    def setUp(self):
+        pass
+    def tearDown(self):
+        pass
+
+
     @allure.severity('blocker')
     @allure.story('输入用户手机号用例')
     def test_success_search_01(self):
@@ -22,11 +28,12 @@ class TestUser(object):
         params = data.data[0]
         headers = data.headers[0]
         api_url = host + url
+        expect_code = data.expected[0]
 
         response = self.request.request_get(url=api_url, params=params, headers=headers).json()
         # print(response)
         # allure.attach('{0}'.format(response), '返回的结果')
-        assert response['code'] == 0
+        assert response['code'] == expect_code,'code返回值0'
 
     @allure.severity('blocker')
     @allure.story('输入用户手机号用例')

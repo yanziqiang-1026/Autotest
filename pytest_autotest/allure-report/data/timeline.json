@@ -1,0 +1,39 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "yanziqiangdeMacBook-Pro.local",
+    "children" : [ {
+      "name" : "69526-MainThread",
+      "children" : [ {
+        "name" : "搜索成功",
+        "uid" : "123845667a46d8cc",
+        "parentUid" : "287892ff23056a7f1155292edf7b11b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615200933625,
+          "stop" : 1615200937087,
+          "duration" : 3462
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "搜索失败",
+        "uid" : "ee3ddf47137043b0",
+        "parentUid" : "287892ff23056a7f1155292edf7b11b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615200937091,
+          "stop" : 1615200937450,
+          "duration" : 359
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "287892ff23056a7f1155292edf7b11b3"
+    } ],
+    "uid" : "57eda56c23520a860e98fd819deb05fb"
+  } ]
+}

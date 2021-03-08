@@ -13,14 +13,14 @@ user:
       method: GET
       url: /api/admin/store/user/v2/list/search
       headers: {
-                 f-session: bb8d0fe1-576d-4e9e-b450-8ea20092b83b
+              f-session: 67d0b174-09d0-4924-9cf4-e5e39a7ab1a2
       }
       params:
         -
           filter: 19916939575
       expected:
         response:
-          code:
+          code: 0
           name: '今天是我的生日'
           id: 1805308190
 
@@ -31,7 +31,7 @@ user2:
       method: GET
       url: /api/admin/store/user/v2/list/search
       headers: {
-                 f-session: bb8d0fe1-576d-4e9e-b450-8ea20092b83b
+              f-session: 67d0b174-09d0-4924-9cf4-e5e39a7ab1a2
       }
       params:
         -
@@ -39,4 +39,4 @@ user2:
       expected:
         response:
           code: 0
-          data:
+          data: ~
