@@ -1,4 +1,4 @@
-Common里主要放一些公共方法；
+Common里主要放一些公共方法
 
 - Request.py等
 

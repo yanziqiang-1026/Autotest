@@ -1,0 +1,24 @@
+# 用户相关用例数据
+#
+#yaml文件简介：
+#语言规则：大小写敏感、缩紧表示层级关系、缩进时只能使用空格、缩进空格数目不强制。
+#pyyaml允许构造任何类型的python对象
+#使用 - 创建列表，返回列表，使用多个 - 可嵌套
+#使用 \ 保留换行,使用 > 折叠换行,使用 + 保留文字末行换行
+#
+search_user_mobile_01:
+  parameters:
+    url: "/api/admin/store/user/v2/list/search"
+    method: GET
+    headers: {f-session: 7ae843c3-119d-41ca-b13b-27c0225806bf,content-type: application/json}
+    params: {filter: 19916939575}
+    expected: {code: 0, name: 今天是我的生日, id: 1805308190}
+
+search_user_mobile_02:
+  parameters:
+    url: "/api/admin/store/user/v2/list/search"
+    method: GET
+    headers: {f-session: 67d0b174-09d0-4924-9cf4-e5e39a7ab1a2,content-type: application/json}
+    params: {filter: 19916939575}
+    expected: {code: 0, data: ~}
+

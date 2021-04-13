@@ -7,26 +7,13 @@
       "name" : "输入用户手机号用例",
       "children" : [ {
         "name" : "搜索成功",
-        "uid" : "123845667a46d8cc",
+        "uid" : "108abee40b00c4c4",
         "parentUid" : "d806c2a3e68ee45994488738138847db",
         "status" : "passed",
         "time" : {
-          "start" : 1615200933625,
-          "stop" : 1615200937087,
-          "duration" : 3462
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "搜索失败",
-        "uid" : "ee3ddf47137043b0",
-        "parentUid" : "d806c2a3e68ee45994488738138847db",
-        "status" : "passed",
-        "time" : {
-          "start" : 1615200937091,
-          "stop" : 1615200937450,
-          "duration" : 359
+          "start" : 1618307688422,
+          "stop" : 1618307688980,
+          "duration" : 558
         },
         "flaky" : false,
         "newFailed" : false,

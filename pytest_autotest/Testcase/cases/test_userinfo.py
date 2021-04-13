@@ -1,56 +1,35 @@
 import allure
 
 from pytest_autotest.Common import Request
-from pytest_autotest.Params import user_params
+from pytest_autotest.Params import tools
 from pytest_autotest.Config import config
 
 
 @allure.feature('获取用户信息')
 class TestUser(object):
     request = Request.Request()
-    config = config.ReadConfig()
+    config = config.Readconfig()
 
-    def setUp(self):
-        pass
-    def tearDown(self):
-        pass
+    # def setUp(self):
+    #     self.t = tools.Yaml().case_detail('SearchUserMobile.yaml', 'search_user_mobile_01')
+    #
+    # def tearDown(self):
+    #     pass
 
-
-    @allure.severity('blocker')
-    @allure.story('输入用户手机号用例')
     def test_success_search_01(self):
-        """ 搜索成功用例 """
-        allure.dynamic.title("搜索成功")
+        t = tools.Yaml().case_detail('SearchUserMobile.yaml', 'search_user_mobile_01')
+        host = self.config.get_config('测试环境').get('host')
+        url = t.get('url')
+        headers = t.get('headers')
+        method = t.get('method')
+        data = t.get('data')
+        expect = t.get('expected')
 
-        data = user_params.SearchSuccess()
-        host = self.config.host
-        url = data.url[0]
-        params = data.data[0]
-        headers = data.headers[0]
-        api_url = host + url
-        expect_code = data.expected[0]
+        if method == 'GET':
+            response = self.request.request_get(url=host+url, data=data, headers=headers).json()
+            assert response['code'] == expect['code'], 'code与预期不一致'
+            assert response['data'][0]['id'] == expect['id'],'userid与预期不一致'
 
-        response = self.request.request_get(url=api_url, params=params, headers=headers).json()
-        # print(response)
-        # allure.attach('{0}'.format(response), '返回的结果')
-        assert response['code'] == expect_code,'code返回值0'
-
-    @allure.severity('blocker')
-    @allure.story('输入用户手机号用例')
-    def test_success_search_02(self):
-        """ 搜索失败用例 """
-        allure.dynamic.title("搜索失败")
-
-        data = user_params.SearchError()
-        host = self.config.host
-        url = data.url[0]
-        params = data.data[0]
-        headers = data.headers[0]
-        api_url = host + url
-
-        response = self.request.request_get(url=api_url, params=params, headers=headers).json()
-        # print(response)
-        # allure.attach('{0}'.format(response), '返回的结果')
-        assert response['code'] == 0
-        assert response['data'] == []
-        
+# if __name__ == '__main__':
+#     test = TestUser().test_success_search_01()
+#     print(test)
