@@ -18,7 +18,7 @@ search_user_mobile_02:
   parameters:
     url: "/api/admin/store/user/v2/list/search"
     method: GET
-    headers: {f-session: 67d0b174-09d0-4924-9cf4-e5e39a7ab1a2,content-type: application/json}
-    params: {filter: 19916939575}
-    expected: {code: 0, data: ~}
+    headers: {f-session: 7ae843c3-119d-41ca-b13b-27c0225806bf,content-type: application/json}
+    params: {filter: 19916999999}
+    expected: {code: 0, data: []}
 

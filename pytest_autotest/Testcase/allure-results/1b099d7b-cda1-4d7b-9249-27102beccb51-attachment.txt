@@ -1,0 +1,1 @@
+{'url': '/api/admin/store/user/v2/list/search', 'method': 'GET', 'headers': {'f-session': '7ae843c3-119d-41ca-b13b-27c0225806bf', 'content-type': 'application/json'}, 'data': {'filter': 19916999999}, 'expected': {'code': 0, 'data': []}}
