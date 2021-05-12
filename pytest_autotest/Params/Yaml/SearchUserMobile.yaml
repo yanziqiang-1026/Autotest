@@ -10,7 +10,7 @@ search_user_mobile_01:
   parameters:
     url: "/api/admin/store/user/v2/list/search"
     method: GET
-    headers: {f-session: 7ae843c3-119d-41ca-b13b-27c0225806bf,content-type: application/json}
+    headers: {f-session: cddfa85b-bb91-40e6-b21c-9c58c8cad6db,content-type: application/json}
     params: {filter: 19916939575}
     expected: {code: 0, name: 今天是我的生日, id: 1805308190}
 
@@ -18,7 +18,7 @@ search_user_mobile_02:
   parameters:
     url: "/api/admin/store/user/v2/list/search"
     method: GET
-    headers: {f-session: 7ae843c3-119d-41ca-b13b-27c0225806bf,content-type: application/json}
+    headers: {f-session: cddfa85b-bb91-40e6-b21c-9c58c8cad6db,content-type: application/json}
     params: {filter: 19916999999}
     expected: {code: 0, data: []}
 

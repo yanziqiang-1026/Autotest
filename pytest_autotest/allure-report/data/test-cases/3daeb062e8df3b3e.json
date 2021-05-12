@@ -1,0 +1,62 @@
+{
+  "uid" : "3daeb062e8df3b3e",
+  "name" : "test_success_search_01",
+  "fullName" : "Testcase.cases.test_userinfo.TestUser#test_success_search_01",
+  "historyId" : "8fb9fc13a253ebd84783e9fb35a30533",
+  "time" : {
+    "start" : 1619848974818,
+    "stop" : 1619848974997,
+    "duration" : 179
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: code与预期不一致\nassert 401 == 0",
+  "statusTrace" : "self = <pytest_autotest.Testcase.cases.test_userinfo.TestUser object at 0x10a100430>\n\n    def test_success_search_01(self):\n        t = tools.Yaml().case_detail('SearchUserMobile.yaml', 'search_user_mobile_01')\n        host = self.config.get_config('测试环境').get('host')\n        url = t.get('url')\n        headers = t.get('headers')\n        method = t.get('method')\n        data = t.get('data')\n        expect = t.get('expected')\n    \n        if method == 'GET':\n            response = self.request.request_get(url=host+url, data=data, headers=headers).json()\n>           assert response['code'] == expect['code'], 'code与预期不一致'\nE           AssertionError: code与预期不一致\nE           assert 401 == 0\n\nTestcase/cases/test_userinfo.py:31: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Testcase.cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_userinfo"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUser"
+  }, {
+    "name" : "host",
+    "value" : "bogon"
+  }, {
+    "name" : "thread",
+    "value" : "30558-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Testcase.cases.test_userinfo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "3daeb062e8df3b3e.json",
+  "parameterValues" : [ ]
+}

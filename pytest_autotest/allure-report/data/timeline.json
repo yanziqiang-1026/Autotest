@@ -1,0 +1,52 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "bogon",
+    "children" : [ {
+      "name" : "30558-MainThread",
+      "children" : [ {
+        "name" : "test_add_cart_cost_01",
+        "uid" : "b50db32073f51c87",
+        "parentUid" : "2399af1d34f2fde760b7705f661596c7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619848974493,
+          "stop" : 1619848974806,
+          "duration" : 313
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_success_search_02",
+        "uid" : "3f3b5407bb79d9a2",
+        "parentUid" : "2399af1d34f2fde760b7705f661596c7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1619848975041,
+          "stop" : 1619848975233,
+          "duration" : 192
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_success_search_01",
+        "uid" : "3daeb062e8df3b3e",
+        "parentUid" : "2399af1d34f2fde760b7705f661596c7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1619848974818,
+          "stop" : 1619848974997,
+          "duration" : 179
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2399af1d34f2fde760b7705f661596c7"
+    } ],
+    "uid" : "2073f7d556df5d27a604e307fdf127df"
+  } ]
+}

@@ -19,7 +19,7 @@ class Readconfig():
         items = dict(self.cf.items(param)) # 获取某个sections中的所有值，将其转化为字典
         return items
 
-# if __name__ == '__main__':
-#     test = Readconfig()
-#     t = test.get_config('测试环境')
-#     print('取某个sections的所有值',t)
+if __name__ == '__main__':
+    test = Readconfig()
+    t = test.get_config('测试环境')
+    print('取某个sections的所有值',t)

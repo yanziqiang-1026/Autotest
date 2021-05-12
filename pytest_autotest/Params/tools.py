@@ -39,9 +39,12 @@ class Yaml:
             print(error)
             return False
 
+
 # if __name__ == '__main__':
 #     test = Yaml()
-#     test.read_yaml('SearchUserMobile.yaml')
-#     print(test.read_yaml('SearchUserMobile.yaml'))
-#     test.resolution_yaml('SearchUserMobile.yaml','search_user_mobile_01')
-#     print(test.resolution_yaml('SearchUserMobile.yaml','search_user_mobile_01'))
+#     test.read_yaml('AddCartCost.yaml')
+#     print(test.read_yaml('AddCartCost.yaml'))
+#     test.resolution_yaml('AddCartCost.yaml','AddCartCost_01')
+#     print(test.resolution_yaml('AddCartCost.yaml','AddCartCost_01'))
+#     test.case_detail('AddCartCost.yaml','AddCartCost_01')
+#     print(test.case_detail('AddCartCost.yaml','AddCartCost_01'))

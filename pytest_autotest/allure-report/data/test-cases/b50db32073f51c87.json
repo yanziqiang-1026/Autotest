@@ -1,0 +1,72 @@
+{
+  "uid" : "b50db32073f51c87",
+  "name" : "test_add_cart_cost_01",
+  "fullName" : "Testcase.cases.test_addcartcost.TestCost#test_add_cart_cost_01",
+  "historyId" : "ecac7420c71e2fa3e19ad84bac0a00e1",
+  "time" : {
+    "start" : 1619848974493,
+    "stop" : 1619848974806,
+    "duration" : 313
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "136cd868d1882301",
+      "name" : "stdout",
+      "source" : "136cd868d1882301.txt",
+      "type" : "text/plain",
+      "size" : 93
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Testcase.cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_addcartcost"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCost"
+  }, {
+    "name" : "host",
+    "value" : "bogon"
+  }, {
+    "name" : "thread",
+    "value" : "30558-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Testcase.cases.test_addcartcost"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b50db32073f51c87.json",
+  "parameterValues" : [ ]
+}

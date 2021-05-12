@@ -1,0 +1,64 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Testcase.cases",
+    "children" : [ {
+      "name" : "test_addcartcost",
+      "children" : [ {
+        "name" : "TestCost",
+        "children" : [ {
+          "name" : "test_add_cart_cost_01",
+          "uid" : "b50db32073f51c87",
+          "parentUid" : "290a04db3b456990cbf2a5b932ea6e6d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1619848974493,
+            "stop" : 1619848974806,
+            "duration" : 313
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "290a04db3b456990cbf2a5b932ea6e6d"
+      } ],
+      "uid" : "861020969c23740b187ab4d79e3f1ba9"
+    }, {
+      "name" : "test_userinfo",
+      "children" : [ {
+        "name" : "TestUser",
+        "children" : [ {
+          "name" : "test_success_search_01",
+          "uid" : "3daeb062e8df3b3e",
+          "parentUid" : "1e2f3925484e48a21e90928ba8c734b2",
+          "status" : "failed",
+          "time" : {
+            "start" : 1619848974818,
+            "stop" : 1619848974997,
+            "duration" : 179
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_success_search_02",
+          "uid" : "3f3b5407bb79d9a2",
+          "parentUid" : "1e2f3925484e48a21e90928ba8c734b2",
+          "status" : "failed",
+          "time" : {
+            "start" : 1619848975041,
+            "stop" : 1619848975233,
+            "duration" : 192
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "1e2f3925484e48a21e90928ba8c734b2"
+      } ],
+      "uid" : "9992b6d4db0e3f846503d7a71bf069b7"
+    } ],
+    "uid" : "94c3c0d0d77535ee8b90f2009af6539c"
+  } ]
+}

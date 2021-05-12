@@ -1,0 +1,31 @@
+[ {
+  "uid" : "3daeb062e8df3b3e",
+  "name" : "test_success_search_01",
+  "time" : {
+    "start" : 1619848974818,
+    "stop" : 1619848974997,
+    "duration" : 179
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b50db32073f51c87",
+  "name" : "test_add_cart_cost_01",
+  "time" : {
+    "start" : 1619848974493,
+    "stop" : 1619848974806,
+    "duration" : 313
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3f3b5407bb79d9a2",
+  "name" : "test_success_search_02",
+  "time" : {
+    "start" : 1619848975041,
+    "stop" : 1619848975233,
+    "duration" : 192
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

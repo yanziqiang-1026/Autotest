@@ -1,0 +1,25 @@
+AddCartCost_01:
+  parameters:
+    url: "/api/admin/store/user/v2/{user_id}/cost"
+    method: POST
+    headers: {f-session: cddfa85b-bb91-40e6-b21c-9c58c8cad6db,content-type: application/json}
+    params:
+      closeUnpaidOrder: false
+      consumeItems:
+        packages: [ ]
+        services: [ ]
+        products:
+          - batchId: ''
+            prePurchase: false
+            number: 1
+            employeeId: 1029
+            skuId: 33063
+            index: 0
+      discountParams: [ ]
+      pSys: balance
+      discount: true
+      point: false
+      vipCardId: 1463
+      useMedicalPoints: 0
+      bookingId: null
+    expected: {code: 0, paid: 45}

@@ -1,0 +1,39 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: code与预期不一致\nassert 401 == 0",
+      "children" : [ {
+        "name" : "test_success_search_01",
+        "uid" : "3daeb062e8df3b3e",
+        "parentUid" : "790bcbeeb8f5be1f5b78ce3f458d5a24",
+        "status" : "failed",
+        "time" : {
+          "start" : 1619848974818,
+          "stop" : 1619848974997,
+          "duration" : 179
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_success_search_02",
+        "uid" : "3f3b5407bb79d9a2",
+        "parentUid" : "790bcbeeb8f5be1f5b78ce3f458d5a24",
+        "status" : "failed",
+        "time" : {
+          "start" : 1619848975041,
+          "stop" : 1619848975233,
+          "duration" : 192
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "790bcbeeb8f5be1f5b78ce3f458d5a24"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}
